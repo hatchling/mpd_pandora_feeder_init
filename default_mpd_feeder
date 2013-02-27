@@ -1,0 +1,4 @@
+# Should go in /etc/default/mpd_feeder
+START_MPD_FEEDER=true
+MPD_FEEDER_PORT=9999
+PID_FILE=/var/run/mpd_feeder.pid
