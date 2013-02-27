@@ -76,7 +76,7 @@ case "$1" in
         mpd_feeder_stop
         ;;
     status)
-    	status_of_proc -p $PIDFILE $DAEMON $NAME
+    	status_of_proc -p $PID_FILE $DAEMON $NAME
 	;;
     restart|force-reload)
         mpd_feeder_stop
