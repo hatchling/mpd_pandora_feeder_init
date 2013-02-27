@@ -57,7 +57,7 @@ mpd_feeder_start () {
     log_end_msg $?
 }
 
-mpd_stop () {
+mpd_feeder_stop () {
     if [ "$START_MPD_FEEDER" != "true" ]; then
         log_failure_msg "Not stopping MPD Feeder: disabled by /etc/default/$NAME".
         exit 0
